@@ -1,0 +1,140 @@
+html {
+  font-family: Caliber;
+  width: 1000pt;
+  height: 2000pt;
+  margin: auto;
+}
+/*body {
+  margin: 0;
+  margin-top: 0;
+  font-family: caliber;
+}*/
+.navbar ul {
+  overflow: hidden;
+  list-style-type: none;
+  background-color: #333333;
+  box-sizing: border-box;
+}
+
+li {
+  display: inline;
+  padding-left: 20pt;
+  text-align: center;
+}
+li a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  bottom: 5pt;
+}
+.brandname {
+  font-size: 48pt;
+}
+.rightitems {
+  padding: 20pt 10pt;
+  position: relative;
+  left: 200pt;
+  bottom: 15pt;
+}
+.categories ul {
+  background-color: white;
+  margin: auto;
+  display: flex;
+  padding: 0 0 10pt 0;
+  justify-content: spacearound;
+  text-align: center;
+}
+.categories li a {
+  list-style-type: none;
+  color: black;
+  position: relative;
+  top: 1pt;
+  font-size: 16pt;
+}
+.searchbar {
+  margin-left: auto;
+}
+
+.maskcontent {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(169, 169, 169, 0.212);
+  align-items: center;
+  padding: 20pt;
+  list-style-type: none;
+}
+
+.maskcontent img {
+  width: 150pt;
+  height: 150pt;
+  margin: auto;
+}
+.maskcontent h2 {
+  font-size: calc(58pt);
+  padding: 0;
+}
+.maskcontent li {
+  list-style-type: none;
+  font-size: 18pt;
+  text-align: left;
+  padding: auto;
+  color: #333333;
+}
+.mainareadeal {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10pt;
+}
+h2 {
+  margin-left: 20pt;
+  color: #333333;
+}
+.fashion {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20pt;
+  font-size: 20pt;
+}
+.fashion .fashionone {
+  background-color: #dbf3fa;
+  padding: 10pt;
+  margin: auto;
+}
+.fashiondown .fashiondowntwo {
+  background-color: #dbf3fa;
+  padding: 10pt;
+  margin: auto;
+}
+.fashiondown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 20pt;
+  padding: 20pt;
+}
+h6 {
+  font-size: 14pt;
+  font-weight: lighter;
+  padding: 30pt;
+  margin: auto;
+  color: #333333;
+  line-height: 2;
+  word-break: calc(20pt);
+}
+.footer {
+  background-color: #131a22;
+  display: flex;
+  justify-content: space-between;
+  padding: 20pt 100pt 100pt 50pt;
+  box-sizing: border-box;
+}
+.content {
+  color: #fff;
+  font-size: 16pt;
+  line-height: 0.5;
+}
+.headlist {
+  font-size: 18pt;
+}
